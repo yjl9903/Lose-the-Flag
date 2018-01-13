@@ -96,7 +96,7 @@ ul li:hover a {
 }
 .text_column {
 	width: 29%;
-	text-align: justify;
+	text-align: center;
 	font-weight: lighter;
 	line-height: 25px;
 	float: left;
@@ -157,7 +157,28 @@ ul li:hover a {
 }
 .parallax {
 	color: #FFFFFF;
-	padding-top: 110px;
+	padding-top: 100px;
+	padding-left:auto;
+	padding-right:auto;
+	letter-spacing: 2px;
+	margin: 0px auto;
+	text-align:center;
+	color:#F4F4F4;
+}
+.parallaxForTitle {
+	color: #FFFFFF;
+	padding-top: 10px;
+	padding-left:auto;
+	padding-right:auto;
+	letter-spacing: 2px;
+	margin: 0px auto;
+	text-align:center;
+	color:#F4F4F4;
+	font-weight: bold;
+}
+.declar {
+	color: #FFFFFF;
+	padding-top: 60px;
 	padding-left:auto;
 	padding-right:auto;
 	letter-spacing: 2px;
@@ -259,33 +280,35 @@ footer {
 	border:0px solid #000;
 	width:100%;
 	padding-top:20px;
-	margin-left:-5%;
 	float: left;
 	color:#FFF;
 	letter-spacing:3px;
 }
 .passage{
 	text-align:center;
-	height:150px;
-	line-height:150px;
-	width:150px;
-	margin:5px;
-	padding:0;
+	vertical-align: middle;
+	height: 70px;
+	margin:10px 10px auto auto;
+	width: 150px;
+	
 	background-color:#EEE9E9;
 	color:#A3A3A3;
-	transition: all 0.5s linear;
+	/**/
+	transition: all 0.3s linear;
+	letter-spacing: 2px;
+	border: 3px solid #FFFFFF;
 }
 .passage:hover{
 	background-color: #FFF;
 	color: #000;
 	cursor: pointer;
 }
-.passage .y_center{
-	margin:auto;
-	height:30px;
-	width:100px;
-	padding:0;
+.center{
+	text-align:center;
+	vertical-align: middle;
+	padding: inherit;
 	font-size:22px;
+	color: #A4A1A1
 }
 #pTable{
 	margin:20px auto 0 auto;
