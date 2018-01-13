@@ -39,6 +39,7 @@ nav {
 	width: 50%;
 	text-align: right;
 	margin-right: 25px;
+	
 }
 header nav ul {
 	list-style: none;
@@ -156,7 +157,6 @@ ul li:hover a {
 }
 .parallax {
 	color: #FFFFFF;
-
 	padding-top: 100px;
 	padding-left:auto;
 	padding-right:auto;
