@@ -179,6 +179,7 @@ ul li:hover a {
 .declar {
 	color: #FFFFFF;
 	padding-top: 60px;
+	padding-top: 110px;
 	padding-left:auto;
 	padding-right:auto;
 	letter-spacing: 2px;
@@ -314,7 +315,6 @@ footer {
 	margin:20px auto 0 auto;
 	padding-bottom:30px;
 }
-
 /* Mobile */
 @media (max-width: 320px) {
 .logo {
