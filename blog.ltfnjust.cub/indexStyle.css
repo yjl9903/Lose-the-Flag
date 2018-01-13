@@ -52,7 +52,7 @@ nav ul li {
 	font-weight: bold;
 	text-align: left;
 	letter-spacing: 2px;
-	transition: all 1s linear;
+	transition: all 0.3s linear;
 }
 ul li a {
 	color: #FFFFFF;
@@ -89,18 +89,15 @@ ul li:hover a {
 }
 
 /* About Section */
-.team{
-	margin:0;
-	padding-top:20px;
-}
 .text_column {
 	width: 29%;
-	text-align: center;
+	text-align: justify;
 	font-weight: lighter;
 	line-height: 25px;
 	float: left;
 	padding-left: 20px;
 	padding-right: 20px;
+	color: #A3A3A3;
 }
 .about {
 	margin-top: 0px;
@@ -122,7 +119,7 @@ ul li:hover a {
 	width: 100%;
 	background-color: #FFFFFF;
 	/* [disabled]min-width: 400px;*/
-	padding-bottom: 50px;
+	padding-bottom: 35px;
 	padding-top: 0px;
 	margin-top: -5px;
 	margin-bottom: 0px;
@@ -156,39 +153,12 @@ ul li:hover a {
 }
 .parallax {
 	color: #FFFFFF;
-
-	padding-top: 100px;
-	padding-left:auto;
-	padding-right:auto;
-	letter-spacing: 2px;
-	margin: 0px auto;
-	text-align:center;
-	color:#F4F4F4;
-}
-.parallaxForTitle {
-	color: #FFFFFF;
-	padding-top: 10px;
-	padding-left:auto;
-	padding-right:auto;
-	letter-spacing: 2px;
-	margin: 0px auto;
-	text-align:center;
-	color:#F4F4F4;
-	font-weight: bold;
-}
-.declar {
-	color: #FFFFFF;
-	padding-top: 60px;
 	padding-top: 110px;
 	padding-left:auto;
 	padding-right:auto;
 	letter-spacing: 2px;
 	margin: 0px auto;
 	text-align:center;
-	color:#F4F4F4;
-}
-.banner .parallax{
-	font-size:20px;
 }
 
 /* More info */
@@ -270,51 +240,6 @@ footer {
 	display: none;
 }
 
-/* Passage */
-.passageDiv{
-	background-color:#ADD8E6;
-	margin:0;
-	padding:0;
-	/*height:300px;*/
-}
-.passageTitle{
-	border:0px solid #000;
-	width:100%;
-	padding-top:20px;
-	float: left;
-	color:#FFF;
-	letter-spacing:3px;
-}
-.passage{
-	text-align:center;
-	vertical-align: middle;
-	height: 70px;
-	margin:10px 10px auto auto;
-	width: 150px;
-	
-	background-color:#EEE9E9;
-	color:#A3A3A3;
-	/**/
-	transition: all 0.3s linear;
-	letter-spacing: 2px;
-	border: 3px solid #FFFFFF;
-}
-.passage:hover{
-	background-color: #FFF;
-	color: #000;
-	cursor: pointer;
-}
-.center{
-	text-align:center;
-	vertical-align: middle;
-	padding: inherit;
-	font-size:22px;
-	color: #A4A1A1
-}
-#pTable{
-	margin:20px auto 0 auto;
-	padding-bottom:30px;
-}
 /* Mobile */
 @media (max-width: 320px) {
 .logo {
