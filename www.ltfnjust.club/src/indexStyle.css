@@ -241,7 +241,7 @@ footer .footer_column p {
 }
 .button:hover {
 	background-color: #FEFEFE;
-	color: #C4C4C4;
+	color: #7C7C7C;
 	cursor: pointer;
 }
 .copyright {
@@ -256,7 +256,7 @@ footer .footer_column p {
 	border-top-width: 2px;
 }
 .footer_banner {
-	background-color: #B3B3B3;
+	background-color: #898585;
 	padding-top: 60px;
 	padding-bottom: 60PX;
 	margin-bottom: 0px;
