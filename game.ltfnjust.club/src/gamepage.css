@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+body .login 
+{
+  box-shadow: -15px 15px 15px rgba(6, 17, 47, 1);
+  opacity: 1;
+  top: 20px;
+  position: relative;
+  width: 240px;
+  height: 300px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  padding: 100px 40px 40px 40px;
+  background: #35394a;
+  background: -webkit-linear-gradient(230deg, rgba(53, 57, 74, 0) 0%, rgb(0, 0, 0) 100%);
+}
+body .login .validation {
+  position: absolute;
+  z-index: 1;
+  right: 10px;
+  top: 14px;
+  opacity: 0;
+}
+body .login .disclaimer {
+  position: absolute;
+  bottom: 20px;
+  left: 35px;
+  width: 250px;
+}
+body .login_title {
+  color: #D3D7F7;
+  height: 60px;
+  text-align: left;
+  font-size: 16px;
+}
+body .login_fields {
+  height: 208px;
+  position: absolute;
+  left: 0;
+}
+body .login_fields .icon {
+  position: absolute;
+  z-index: 1;
+  left: 36px;
+  top: 8px;
+  opacity: .5;
+}
+body .login_fields input[type='password'],body .login_fields input[type='text'] {
+  color: #61BFFF !important;
+}
+body .login_fields input[type='text'], body .login_fields input[type='password'] {
+  color: #afb1be;
+  width: 190px;
+  margin-top: -2px;
+  background: rgba(57, 61, 82, 0);
+  left: 0;
+  padding: 10px 65px;
+  border-top: 2px solid rgba(57, 61, 82, 0);
+  border-bottom: 2px solid rgba(57, 61, 82, 0);
+  border-right: none;
+  border-left: none;
+  outline: none;
+  font-family: 'Gudea', sans-serif;
+  box-shadow: none;
+}
+body .login_user, body .login_password {
+  position: relative;
+}
+body .login_submit {
+  position: relative;
+  top: 20px;
+  left: 0px;
+  width: auto;
+  right: 0px;
+  margin: 25px;
+}
+
+body .login_submit input {
+  border-radius: 50px;
+  background: transparent;
+  padding: 10px 50px;
+  border: 2px solid #4FA1D9;
+  color: #4FA1D9;
+  text-transform: uppercase;
+  font-size: 11px;
+  transition: all 0.3s linear;
+}
+body .login_submit input:hover {
+  color: white;
+  background: #4FA1D9;
+  cursor: pointer;
+}
+
+
+html, body {
+	padding: 0;
+	margin: 0; 
+	height:100%; 
+	font-size: 16px; 
+	background-repeat: no-repeat; 
+	background-position: left top; 
+	background-color: #242645; 
+	color: #fff; 
+	font-family: 'Source Sans Pro'; 
+	background-size: 100%; 
+	background-image: url(); }/*import image url*/
